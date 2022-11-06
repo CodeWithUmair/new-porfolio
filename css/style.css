@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root {
-   --yellow: #ffcc0d;
+   --yellow: #4cd137;
    --black: #353b48;
    --white: #fff;
    --light-bg: #eee;
@@ -289,6 +289,10 @@ section {
    width: 80%;
 }
 
+.edu-exp {
+   margin-bottom: 5rem;
+}
+
 .about .edu-exp .row {
    display: flex;
    flex-wrap: wrap;
@@ -312,9 +316,9 @@ section {
    padding: 2rem;
 }
 
-.about .edu-exp .row .box-container .box span {
+/* .about .edu-exp .row .box-container .box span {
    font-size: 1.5rem;
-}
+} */
 
 .about .edu-exp .row .box-container .box h3 {
    font-size: 2.5rem;
@@ -383,6 +387,7 @@ section {
    height: 30rem;
    width: 100%;
    object-fit: cover;
+   cursor: pointer;
 }
 
 .portfolio .box-container .box h3 {
