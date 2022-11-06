@@ -180,6 +180,7 @@ section {
    flex-wrap: wrap;
    gap: 2rem;
    min-height: 100vh;
+   margin-bottom: 5rem;
 }
 
 .home .image {
@@ -338,6 +339,7 @@ section {
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap: 1.5rem;
    align-items: flex-start;
+   margin-bottom: 10rem;
 }
 
 .services .box-container .box {
@@ -381,6 +383,7 @@ section {
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap: 1.5rem;
    align-items: flex-start;
+   margin-bottom: 10rem;
 }
 
 .portfolio .box-container .box img {
