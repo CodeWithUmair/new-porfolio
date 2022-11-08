@@ -227,7 +227,7 @@ section {
 }
 
 .about .biography .bio {
-   margin: 1rem 0;
+   margin: 5rem 0;
 }
 
 .about .biography .bio h3 {
@@ -274,12 +274,13 @@ section {
    font-weight: normal;
 }
 
+/* 
 .about .skills .progress .bar:nth-child(1) h3 {
    width: 95%;
 }
 
 .about .skills .progress .bar:nth-child(2) h3 {
-   width: 80%;
+   width: 85%;
 }
 
 .about .skills .progress .bar:nth-child(3) h3 {
@@ -287,7 +288,34 @@ section {
 }
 
 .about .skills .progress .bar:nth-child(4) h3 {
+   width: 85%;
+}
+
+.about .skills .progress .bar:nth-child(4) h3 {
    width: 80%;
+}
+
+.about .skills .progress .bar:nth-child(4) h3 {
+   width: 80%;
+}
+
+.about .skills .progress .bar:nth-child(4) h3 {
+   width: 80%;
+} */
+
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   /* background-color: #2196F3; */
+   padding: 10px;
+}
+
+.grid-item {
+   background-color: rgba(255, 255, 255, 0.8);
+   /* border: 1px solid rgba(0, 0, 0, 0.8); */
+   padding: 20px;
+   font-size: 30px;
+   text-align: center;
 }
 
 .edu-exp {
@@ -307,6 +335,7 @@ section {
 .about .edu-exp .row .box-container .title {
    padding: 1.5rem;
    font-size: 3rem;
+   width: 100%;
    background-color: var(--yellow);
 }
 
@@ -333,6 +362,18 @@ section {
    font-size: 1.7rem;
    line-height: 2;
 }
+
+.about .edu-exp .row .box-container .box p a {
+   text-decoration: underline;
+   color: #107a00
+}
+
+.about .edu-exp .row .box-container .box p a:hover {
+   text-decoration: underline;
+   color: #353b48;
+}
+
+
 
 .services .box-container {
    display: grid;
