@@ -34,14 +34,18 @@
 
 .umair-box h3 {
     font-size: 22px;
-    padding: 20px 0;
+    padding: 18px 0;
     color: rgb(0, 0, 0);
 }
 
 .umair-box p {
-    font-size: 13px;
+    font-size: 15px;
     color: rgb(40, 40, 40);
     text-align: justify;
+}
+
+.umair-box p span a {
+    color: rgb(13, 177, 13);
 }
 
 .umair-box button {
