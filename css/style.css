@@ -460,12 +460,13 @@ section#shadow-host-companion {
    width: 100%;
    object-fit: cover;
    cursor: pointer;
+   padding-bottom: 20px;
 }
 
 .portfolio .box-container .box h3 {
    margin: 1rem 0;
    font-size: 2rem;
-   font-weight: normal;
+   font-weight: bold;
 }
 
 .portfolio .box-container .box span {
