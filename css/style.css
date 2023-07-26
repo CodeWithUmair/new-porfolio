@@ -57,7 +57,7 @@ body.active {
 
 
 section {
-   padding: 3rem 2rem;
+   padding: 4rem 2rem;
    margin: 0 auto;
    max-width: 1200px;
    text-align: center;
@@ -70,6 +70,10 @@ section#shadow-host-companion {
 .heading {
    margin-bottom: 3rem;
    text-align: center;
+}
+
+#about .heading {
+   margin-bottom: 0;
 }
 
 .heading span {
@@ -328,13 +332,12 @@ section#shadow-host-companion {
 
 .grid-container {
    display: grid;
-   grid-template-columns: auto auto auto;
-   /* background-color: #2196F3; */
+   grid-template-columns: auto auto auto auto;
    padding: 10px;
 }
 
 .grid-item {
-   background-color: rgba(255, 255, 255, 0.8);
+   /* background-color: rgba(255, 255, 255, 0.8); */
    /* border: 1px solid rgba(0, 0, 0, 0.8); */
    padding: 20px;
    font-size: 30px;
@@ -342,7 +345,7 @@ section#shadow-host-companion {
 }
 
 .edu-exp {
-   margin-bottom: 5rem;
+   margin-bottom: 2rem;
 }
 
 .about .edu-exp .row {
@@ -587,6 +590,10 @@ section#shadow-host-companion {
 
    .contact form .flex .box {
       width: 100%;
+   }
+
+   .grid-container {
+      grid-template-columns: auto auto auto;
    }
 
 }
