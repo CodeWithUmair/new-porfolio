@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
    --yellow: #4cd137;
@@ -10,7 +10,7 @@
 }
 
 * {
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Poppins', sans-serif;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -48,17 +48,23 @@ html {
 body {
    overflow: hidden;
    transition: .2s linear !important;
+   background-color: bisque;
 }
 
 body.active {
    padding-left: 35rem;
 }
 
+
 section {
    padding: 3rem 2rem;
    margin: 0 auto;
    max-width: 1200px;
    text-align: center;
+}
+
+section#shadow-host-companion {
+   padding: 0;
 }
 
 .heading {
@@ -68,7 +74,7 @@ section {
 
 .heading span {
    text-transform: uppercase;
-   font-size: 6.5rem;
+   font-size: 3.5rem;
    border-bottom: var(--border-bold);
 }
 
@@ -195,11 +201,12 @@ section {
 
 .home .content {
    flex: 1 1 40rem;
+   text-align: center;
 }
 
 .home .content h3 {
-   text-transform: uppercase;
-   font-size: 5rem;
+   /* text-transform: uppercase; */
+   font-size: 4rem;
    margin-bottom: .5rem;
 }
 
@@ -207,17 +214,25 @@ section {
    display: inline-block;
    padding: 1rem 2rem;
    background-color: var(--yellow);
-   font-size: 2.5rem;
+   font-size: 2rem;
    margin: 1rem 0;
 }
 
 .home .content p {
-   font-size: 1.7rem;
+   font-size: 1.4rem;
    line-height: 2;
    padding: 1rem 0;
+   width: 44rem;
+   margin: 0 auto;
+   text-align: justify;
 }
 
-
+.home .content .content_buttons {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 10px;
+}
 
 .about .biography p {
    margin: 2rem auto;
@@ -542,7 +557,7 @@ section {
 
 }
 
-@media (max-width:450px) {
+@media (max-width:750px) {
 
    html {
       font-size: 50%;
@@ -562,7 +577,8 @@ section {
    }
 
    .heading span {
-      font-size: 4rem;
+      font-size: 2.5rem;
+      line-height: 35px;
    }
 
    .about .biography .bio h3 {
