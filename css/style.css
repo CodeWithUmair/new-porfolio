@@ -57,7 +57,7 @@ body.active {
 
 
 section {
-   padding: 4rem 2rem;
+   padding: 5rem 2rem;
    margin: 0 auto;
    max-width: 1200px;
    text-align: center;
@@ -204,7 +204,7 @@ section#shadow-host-companion {
 }
 
 .home .content {
-   flex: 1 1 40rem;
+   flex: 1 1 43rem;
    text-align: center;
 }
 
