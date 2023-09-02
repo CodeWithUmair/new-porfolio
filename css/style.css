@@ -218,13 +218,14 @@ section#shadow-host-companion {
    display: inline-block;
    padding: 1rem 2rem;
    background-color: var(--yellow);
-   font-size: 2rem;
-   margin: 1rem 0;
+   font-size: 1.8rem;
+   margin: 1rem 2rem;
 }
 
 .home .content p {
    font-size: 1.4rem;
-   line-height: 2;
+   font-weight: 500;
+   line-height: 1.6;
    padding: 1rem 0;
    width: 44rem;
    margin: 0 auto;
@@ -530,6 +531,7 @@ section#shadow-host-companion {
    font-size: 2.5rem;
 }
 
+.contact .box-container .box a,
 .contact .box-container .box p {
    font-size: 2rem;
    text-transform: none;
@@ -548,7 +550,19 @@ section#shadow-host-companion {
 }
 
 
+/* NEW SESSION */
 
+.box_content {
+   padding: 2rem 3rem 1rem 3rem;
+   background-color: #fff;
+   border-radius: 1rem;
+   box-shadow: 20px 20px 8px 6px rgba(0, 0, 0, .3);
+}
+
+p.box_content_para {
+   font-size: 12px;
+   text-align: justify;
+}
 
 
 
