@@ -39,9 +39,14 @@ if(isset($_POST['send'])){
     <!-- aos css link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
+    <!-- Swiper.JS Slider link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/service-card.css">
+    <link rel="stylesheet" href="./css/Certification_Slider.css" class="src" />
+
 
 </head>
 
@@ -224,9 +229,9 @@ if(isset($message)){
                     <div class="box_content">
 
                         <p class="box_content_para">
-                            "Discover the comfiest slippers for all-day cozy comfort, inside and out, with 20+ styles to
-                            choose from at the #1
-                            Slipper Store. Stay trendy and step into ultimate fun this season. Shop now!"
+                            Experience all-day cozy comfort with our 20+ styles of indoor and outdoor slippers. Stay
+                            trendy this season with our
+                            latest Comfy Kicks at the #1 Slipper Store. Elevate your comfort and style. Shop now!
                         </p>
 
                         <h3>Comfy Kicks</h3>
@@ -428,6 +433,36 @@ if(isset($message)){
     </section>
 
     <!-- services section ends -->
+
+    <!-- certification section starts -->
+
+    <section class="UM_Certification" data-aos="fade-down">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/umair/UM_R.png?updatedAt=1693945675885" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/umair/UM_JS.png?updatedAt=1693945675954" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/umair/UM_F.png?updatedAt=1693945675728" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/umair/UM_SHOPIFY.png?updatedAt=1693945675478" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/umair/UM_SOLIDITY.png?updatedAt=1693945675778" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ik.imagekit.io/umair/UM_HYDROGEN.png?updatedAt=1693945675474" alt="" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- certification section ends -->
 
     <!-- about section starts  -->
 
@@ -673,10 +708,38 @@ your online store looks stunning across all devices.</p> -->
     <!-- aos js link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <script>
         AOS.init({
             duration: 800,
             delay: 200
+        });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
         });
     </script>
 
