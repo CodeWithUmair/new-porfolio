@@ -588,7 +588,7 @@ p.box_content_para {
 
    .header.active {
       padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-bottom: 10rem;
    }
 
    #menu-btn.fa-times {
