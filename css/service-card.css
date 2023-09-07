@@ -18,7 +18,7 @@
 
 .umair-box {
     max-width: 450px;
-    min-height: 300px;
+    min-height: 270px;
     background-color: #fff;
     border-radius: 1rem;
     padding: 40px;
@@ -37,7 +37,7 @@
 }
 
 .umair-box p {
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(40, 40, 40);
     text-align: justify;
 }

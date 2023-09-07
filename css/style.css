@@ -57,7 +57,7 @@ body.active {
 
 
 section {
-   padding: 4rem 2rem;
+   padding: 5rem 2rem;
    margin: 0 auto;
    max-width: 1200px;
    text-align: center;
@@ -126,7 +126,7 @@ section#shadow-host-companion {
    text-align: center;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-flow: column;
    transition: .2s linear !important;
    text-align: center;
@@ -600,7 +600,7 @@ p.box_content_para {
    }
 
    .heading span {
-      font-size: 2.5rem;
+      font-size: 3rem;
       line-height: 35px;
    }
 
