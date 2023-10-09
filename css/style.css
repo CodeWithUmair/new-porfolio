@@ -465,7 +465,7 @@ section#shadow-host-companion {
 }
 
 .portfolio .box-container .box h3 {
-   margin: 1rem 0;
+   margin: 0.5rem 0 0.1rem;
    font-size: 2rem;
    font-weight: bold;
 }
@@ -553,9 +553,13 @@ section#shadow-host-companion {
 /* NEW SESSION */
 
 .box_content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
    padding: 2rem 3rem 1rem 3rem;
    background-color: #fff;
    border-radius: 1rem;
+   min-height: 250px;
    box-shadow: 20px 20px 8px 6px rgba(0, 0, 0, .3);
 }
 
